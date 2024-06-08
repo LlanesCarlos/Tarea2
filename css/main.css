@@ -79,7 +79,127 @@ div,li {
 .center {
   text-align: center;
 }
-.caffee_menu_image {
+.coffee_menu_image {
   width: 20%;
   border-radius: 50%;
+}
+.dic_coffee{
+  margin-top: 25vh;
+}
+.natural{
+  margin-top: 5vh;
+}
+.concept{
+  display: flex;
+}
+.concept_text{
+  width: 60%;
+}
+.concept_img{
+  width: 35%;
+}
+.menu{
+  background: url("../images/sample_menu_bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cakes{
+  display:flex;
+  
+}
+.blueberry_elements, .strawberry_elements{
+  display: flex;
+  width: 49%;
+}
+.recommended_img{
+  min-width: 55%;
+  height: 300px;
+}
+.cake_text{
+  padding: 10px 20px;
+  background: white;
+  width: 45%;
+}
+.price{
+  text-align: right;
+}
+.coffee_menu{
+  margin: 20px;
+}
+.coffee_menu_image{
+  width: 20%;
+}
+.coffee_menu1, .coffee_menu2{
+  display: flex;
+}
+.blended, .latte_art, .cafe_latte, .ice_coffee{
+  display: flex;
+  width: 49%;
+}
+.business, .address{
+  display: flex;
+}
+.business_text, .address_text{
+  width: 80px;
+}
+.map{
+  width: 100%;
+}
+.foot {
+  background: #251e19;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+}
+
+.footer_items {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer_items li {
+  margin-right: 10px;
+}
+
+.footer_items a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer_img {
+  max-height: 30px;
+  margin-right: 10px;
+}
+
+.footer_items li:last-child {
+  margin-right: 0;
+}
+
+.footer_items a:last-child img {
+  margin-right: 0;
+}
+
+.footer_items li a {
+  display: inline-block;
+}
+
+.footer_items li a img {
+  vertical-align: middle;
+}
+
+.footer_items li a, .copyright {
+  margin-top: 10px;
+}
+
+.footer_items li a {
+  margin-bottom: 10px;
 }
